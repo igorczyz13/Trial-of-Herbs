@@ -1,0 +1,394 @@
+@import '_colors';
+@import '_animation';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-padding-top: 84px;
+}
+body {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+}
+
+.underline {
+	margin: 0 auto 40px;
+	width: 60px;
+	height: 4px;
+	background-color: $green-color;
+}
+.shadow-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+	text-transform: uppercase;
+	z-index: 1;
+	transition: background-color 0.6s;
+
+	.fa-bars {
+		padding: 7px;
+		color: $green-color;
+	}
+	.fa-bars:hover {
+		color: #fff;
+	}
+
+	.nav-link {
+		color: $green-color;
+	}
+	.nav-link:hover {
+		color: #fff;
+	}
+	.navbar-brand {
+		font-weight: bold;
+		font-size: 28px;
+		color: $green-color;
+		transition: 0.6s;
+	}
+	.navbar-brand:hover {
+		color: #fff;
+	}
+	.green-text {
+		color: rgb(80, 156, 73);
+	}
+}
+
+header {
+	color: #fff;
+
+	h1 {
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 14px;
+	}
+
+	.hero-img {
+		position: relative;
+		height: 100vh;
+		background-image: url('../img/cannabis-marijuana-leaf-closeup\(1\).jpg');
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: 0;
+	}
+
+	.hero-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.2);
+		z-index: -10;
+	}
+
+	.hero-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+		padding: 10px;
+		text-align: center;
+		z-index: 5;
+	}
+
+	.btn-outline-light {
+		text-transform: uppercase;
+	}
+
+	.fa-chevron-down {
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+		font-size: 30px;
+		bottom: 20px;
+		color: #fff;
+	}
+}
+
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+
+	.aboutus-hover:hover {
+		color: $green-color;
+	}
+}
+.aboutus-hero {
+	position: relative;
+	background-image: url('../img/chemist-gd1b12706e_640.jpg');
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	z-index: 0;
+	text-transform: uppercase;
+
+	.aboutus-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: -5;
+	}
+
+	.aboutus-hero-item {
+		margin: 10px 0;
+
+		i {
+			font-size: 36px;
+		}
+
+		.aboutus-hero-title {
+			font-size: 24px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.portfolio {
+	background-color: #fff;
+	.card-group {
+		color: black;
+
+		.card {
+			border-radius: 3px solid white;
+		}
+	}
+	color: rgb(5, 0, 0);
+
+	.carousel-item {
+		position: relative;
+		height: 600px;
+	}
+	.carousel-caption {
+		position: absolute;
+		left: 0;
+		right: 0;
+		padding: 40px 0;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-indicators {
+		padding-bottom: 20px;
+	}
+}
+
+.prices {
+	background-color: rgb(232, 229, 229);
+
+	h3 {
+		color: rgb(1, 1, 1);
+	}
+
+	.price-box {
+		margin: 20px 10px;
+		padding: 30px;
+		background-color: white;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+		transition: transform 0.5s;
+
+		h3 {
+			text-transform: uppercase;
+		}
+
+		span {
+			font-weight: bold;
+		}
+	}
+	.price-box:hover {
+		transform: scale(1.05);
+	}
+}
+
+.team {
+	position: relative;
+	background-image: url('/img/chairs-g03d4fb713_1920.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+
+	.team-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: -5;
+	}
+
+	h2 {
+		color: #fff;
+	}
+
+	.card {
+		transition: transform 0.3s;
+		img {
+			height: 300px;
+			object-fit: cover;
+		}
+
+		i {
+			padding: 10px;
+		}
+	}
+
+	.card:hover {
+		transform: scale(0.96);
+	}
+
+	.card-title {
+		font-size: 17px;
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.card-body {
+		height: 150px;
+	}
+}
+
+.achievements {
+	color: #fff;
+	text-transform: uppercase;
+
+	i {
+		padding: 10px;
+		font-size: 34px;
+		text-shadow: 0 0 8px #000;
+	}
+
+	.achievements-list {
+		padding: 20px 0;
+	}
+
+	.achievement-number {
+		font-size: 22px;
+	}
+
+	.achievement-text {
+		font-size: 14px;
+	}
+}
+
+.contact {
+	position: relative;
+	background-image: url('/img/city-g084be12b5_1920.jpg');
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: 0;
+	text-transform: uppercase;
+
+	h2 {
+		color: white;
+		font-weight: bold;
+	}
+	h3 {
+		color: #fff;
+	}
+	p {
+		color: #fff;
+	}
+
+	.contact-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: -5;
+	}
+	.contact-us {
+		display: flex;
+		align-items: center;
+
+		.contact-item {
+			margin: 30px 0;
+
+			h3 {
+				margin-bottom: 15px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+
+			.social-media {
+				font-size: 26px;
+
+				a {
+                    padding: 10px;
+                    color: #fff;
+				}
+
+                a:hover {
+                    color: rgb(160, 94, 47)
+                }
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		.hero-img {
+			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+		}
+	}
+}
+@media (min-width: 992px) {
+	header {
+		.hero-img {
+			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+		}
+	}
+	.aboutus-hero {
+		background-image: url('../img/chemist-g3845b330f_1920.jpg');
+	}
+	
+}
+@media (min-width: 768px) {
+	header {
+		h1 {
+			font-size: 42px;
+		}
+		.hero-img {
+			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+		}
+	}
+}
+@media (min-width: 600px) {
+	header {
+		.hero-img {
+			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+		}
+	}
+}
+@media (min-width: 375px) {
+	header {
+		h1 {
+			font-size: 36px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+}
