@@ -133,15 +133,15 @@ nav .fa-bars:hover {
   color: #fff;
 }
 nav .nav-link {
-  color: rgb(160, 94, 47);
+  color: #fff;
 }
 nav .nav-link:hover {
-  color: #fff;
+  color: #cfc3c3;
 }
 nav .navbar-brand {
   font-weight: bold;
   font-size: 28px;
-  color: rgb(160, 94, 47);
+  color: #fff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
@@ -283,92 +283,6 @@ header .fa-chevron-down {
 }
 .prices h3 {
   color: rgb(1, 1, 1);
-}
-.prices .price-box {
-  margin: 20px 10px;
-  padding: 30px;
-  background-color: white;
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-}
-.prices .price-box h3 {
-  text-transform: uppercase;
-}
-.prices .price-box span {
-  font-weight: bold;
-}
-.prices .price-box:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.team {
-  position: relative;
-  background-image: url("/img/chairs-g03d4fb713_1920.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
-}
-.team .team-shadow {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -5;
-}
-.team h2 {
-  color: #fff;
-}
-.team .card {
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-}
-.team .card img {
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.team .card i {
-  padding: 10px;
-}
-.team .card:hover {
-  -webkit-transform: scale(0.96);
-          transform: scale(0.96);
-}
-.team .card-title {
-  font-size: 17px;
-  margin-bottom: 20px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.team .card-body {
-  height: 150px;
-}
-
-.achievements {
-  color: #fff;
-  text-transform: uppercase;
-}
-.achievements i {
-  padding: 10px;
-  font-size: 34px;
-  text-shadow: 0 0 8px #000;
-}
-.achievements .achievements-list {
-  padding: 20px 0;
-}
-.achievements .achievement-number {
-  font-size: 22px;
-}
-.achievements .achievement-text {
-  font-size: 14px;
 }
 
 .contact {
