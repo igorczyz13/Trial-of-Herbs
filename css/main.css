@@ -116,7 +116,7 @@ body {
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 nav {
@@ -127,7 +127,7 @@ nav {
 }
 nav .fa-bars {
   padding: 7px;
-  color: rgb(160, 94, 47);
+  color: #fff;
 }
 nav .fa-bars:hover {
   color: #fff;
