@@ -109,7 +109,7 @@ body {
 }
 
 .underline {
-  margin: 0 auto 40px;
+  margin: 0 auto 42px;
   width: 60px;
   height: 4px;
   background-color: rgb(160, 94, 47);
@@ -138,9 +138,7 @@ nav .nav-link {
 nav .nav-link:hover {
   color: rgb(160, 94, 47);
 }
-nav .nav-link .active {
-  color: rgb(160, 94, 47);
-}
+
 nav .navbar-brand {
   font-weight: bold;
   font-size: 28px;
@@ -172,7 +170,7 @@ header p {
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url("../img/cannabis-marijuana-leaf-closeup(1).jpg");
+  background-image: url("../img/plant-g543e33b07_1920.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -266,6 +264,10 @@ header .fa-chevron-down {
 .aboutus-hero .aboutus-hero-item .aboutus-hero-title {
   font-size: 24px;
   text-transform: uppercase;
+}
+
+.container p {
+  font-size: 18px;
 }
 
 .portfolio {
@@ -369,70 +371,41 @@ header .fa-chevron-down {
   color: rgb(160, 94, 47);
 }
 
-@media (min-width: 1200px) {
+a nav .nav-link .active {
+  color: rgb(160, 94, 47);
+}
+
+@media (max-width: 1200px) {
   header .hero-img {
     background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   header .hero-img {
     background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
   .aboutus-hero {
     background-image: url("../img/chemist-g3845b330f_1920.jpg");
   }
+  .card-body {
+    border: none;
+  }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   header h1 {
     font-size: 42px;
   }
   header .hero-img {
     background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
+  .card-body {
+    border: 1px solid rgb(219, 214, 214);
+    border-radius: 5px;
+  }
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   header .hero-img {
     background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
 }
-@media (min-width: 375px) {
-  header .hero-img {
-    background-image: url("../img/plant-g1f9b1b553_1280.jpg");
-  }
-  header h1 {
-    font-size: 36px;
-  }
-  header p {
-    font-size: 16px;
-  }
-  .contact {
-    /* height: calc(70vh); */
-  }
-  .aboutus {
-    /* height: auto; */
-  }
-  .portfolio {
-    /* height: auto; */
-  }
-}
-@media (min-width: 315px) {
-  header .hero-img {
-    background-image: url("../img/plant-g1f9b1b553_1280.jpg");
-  }
-  header h1 {
-    font-size: 36px;
-  }
-  header p {
-    font-size: 16px;
-  }
-  .contact {
 
-    /* height: calc(90vh); */
-  }
-  .aboutus {
-    /* height: auto; */
-  }
-  .portfolio {
-    /* height: auto; */
-  }
-}/*# sourceMappingURL=main.css.map */
