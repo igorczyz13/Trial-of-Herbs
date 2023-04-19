@@ -144,7 +144,9 @@ nav .nav-link {
 nav .nav-link:hover {
 	color: rgb(160, 94, 47);
 }
-
+nav .nav-link.active {
+  color: rgb(160, 94, 47) !important;
+}
 nav .navbar-brand {
 	font-weight: bold;
 	font-size: 28px;
@@ -378,6 +380,10 @@ a nav .nav-link .active {
 	color: rgb(160, 94, 47);
 }
 
+.social-media {
+  margin-top: 80px;
+}
+
 @media (max-width: 1200px) {
 	header .hero-img {
 		background-image: url('../img/plant-g543e33b07_1920.jpg');
@@ -416,6 +422,10 @@ a nav .nav-link .active {
 	.portfolio {
 		height: auto;
 	}
+  .contact {
+    height: calc(70vh);
+  }
+  
 	.contact .contact-us {
 		margin-top: 1px;
 	}
@@ -430,5 +440,8 @@ a nav .nav-link .active {
   }
   .contact-shadow {
     padding: 5px;
+  }
+  .social-media {
+    margin-top: 0;
   }
 }
