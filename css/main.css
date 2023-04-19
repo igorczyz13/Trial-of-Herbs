@@ -136,7 +136,10 @@ nav .nav-link {
   color: #fff;
 }
 nav .nav-link:hover {
-  color: #cfc3c3;
+  color: rgb(160, 94, 47);
+}
+nav .nav-link:active {
+  color: rgb(160, 94, 47);
 }
 nav .navbar-brand {
   font-weight: bold;
@@ -146,10 +149,14 @@ nav .navbar-brand {
   transition: 0.6s;
 }
 nav .navbar-brand:hover {
-  color: #fff;
+  color: rgb(160, 94, 47);
 }
 nav .green-text {
   color: rgb(80, 156, 73);
+}
+
+.fa-cannabis {
+  margin-right: 7px;
 }
 
 header {
@@ -341,12 +348,12 @@ header .fa-chevron-down {
 
 @media (min-width: 1200px) {
   header .hero-img {
-    background-image: url("../img/hemp-field-g9b6573e27_1920.jpg");
+    background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
 }
 @media (min-width: 992px) {
   header .hero-img {
-    background-image: url("../img/hemp-field-g9b6573e27_1920.jpg");
+    background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
   .aboutus-hero {
     background-image: url("../img/chemist-g3845b330f_1920.jpg");
@@ -357,12 +364,12 @@ header .fa-chevron-down {
     font-size: 42px;
   }
   header .hero-img {
-    background-image: url("../img/hemp-field-g9b6573e27_1920.jpg");
+    background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
 }
 @media (min-width: 600px) {
   header .hero-img {
-    background-image: url("../img/hemp-field-g9b6573e27_1920.jpg");
+    background-image: url("../img/plant-g543e33b07_1920.jpg");
   }
 }
 @media (min-width: 375px) {

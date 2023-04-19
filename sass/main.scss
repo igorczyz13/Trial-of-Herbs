@@ -45,7 +45,7 @@ nav {
 		color: #fff;
 	}
 	.nav-link:hover {
-		color: #fff;
+		color: rgb(160, 94, 47);
 	}
 	.navbar-brand {
 		font-weight: bold;
@@ -75,7 +75,7 @@ header {
 	.hero-img {
 		position: relative;
 		height: 100vh;
-		background-image: url('../img/cannabis-marijuana-leaf-closeup\(1\).jpg');
+		background-image: url('../img/plant-g543e33b07_1920.jpg');
 		background-position: center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -310,6 +310,10 @@ header {
 		color: #fff;
 	}
 
+	a.number {
+		text-decoration: none;
+	}
+
 	.contact-shadow {
 		position: absolute;
 		top: 0;
@@ -334,7 +338,7 @@ header {
 				}
 
                 a:hover {
-                    color: rgb(160, 94, 47)
+                    color: rgb(160, 94, 47);
                 }
 			}
 		}
@@ -353,7 +357,7 @@ header {
 @media (min-width: 600px) {
 	header {
 		.hero-img {
-			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+			background-image: url('../img/plant-g543e33b07_1920.jpg');
 		}
 	}
 }
@@ -363,14 +367,14 @@ header {
 			font-size: 42px;
 		}
 		.hero-img {
-			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+			background-image: url('../img/plant-g543e33b07_1920.jpg');
 		}
 	}
 }
 @media (min-width: 992px) {
 	header {
 		.hero-img {
-			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+			background-image: url('../img/plant-g543e33b07_1920.jpg');
 		}
 	}
 	.aboutus-hero {
@@ -382,7 +386,7 @@ header {
 @media (min-width: 1200px) {
 	header {
 		.hero-img {
-			background-image: url('../img/hemp-field-g9b6573e27_1920.jpg');
+			background-image: url('../img/plant-g543e33b07_1920.jpg');
 		}
 	}
 }
