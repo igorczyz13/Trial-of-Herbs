@@ -217,6 +217,10 @@ header .fa-chevron-down {
   color: #fff;
 }
 
+.aboutus {
+  height: calc(100vh);
+}
+
 .aboutus i {
   margin-top: 20px;
   font-size: 30px;
@@ -402,12 +406,33 @@ header .fa-chevron-down {
     font-size: 16px;
   }
   .contact {
-    height: calc(70vh);
+    /* height: calc(70vh); */
   }
   .aboutus {
-    height: auto;
+    /* height: auto; */
   }
   .portfolio {
-    height: auto;
+    /* height: auto; */
+  }
+}
+@media (min-width: 315px) {
+  header .hero-img {
+    background-image: url("../img/plant-g1f9b1b553_1280.jpg");
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+  .contact {
+
+    /* height: calc(90vh); */
+  }
+  .aboutus {
+    /* height: auto; */
+  }
+  .portfolio {
+    /* height: auto; */
   }
 }/*# sourceMappingURL=main.css.map */
