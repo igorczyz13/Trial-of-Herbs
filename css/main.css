@@ -1,7 +1,7 @@
 .bounce-top {
-  display: block;
-  -webkit-animation: bounce-top 2s infinite both;
-          animation: bounce-top 2s infinite both;
+	display: block;
+	-webkit-animation: bounce-top 2s infinite both;
+	animation: bounce-top 2s infinite both;
 }
 
 /* ----------------------------------------------
@@ -16,396 +16,419 @@
  * ----------------------------------------
  */
 @-webkit-keyframes bounce-top {
-  0% {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    -webkit-transform: translateY(-24px);
-    transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  65% {
-    -webkit-transform: translateY(-12px);
-    transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  25%, 55%, 75%, 87% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
+	0% {
+		-webkit-transform: translateY(-45px);
+		transform: translateY(-45px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 1;
+	}
+	24% {
+		opacity: 1;
+	}
+	40% {
+		-webkit-transform: translateY(-24px);
+		transform: translateY(-24px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	65% {
+		-webkit-transform: translateY(-12px);
+		transform: translateY(-12px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	25%,
+	55%,
+	75%,
+	87% {
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100% {
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+		opacity: 1;
+	}
 }
 @keyframes bounce-top {
-  0% {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    -webkit-transform: translateY(-24px);
-    transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  65% {
-    -webkit-transform: translateY(-12px);
-    transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  25%, 55%, 75%, 87% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
+	0% {
+		-webkit-transform: translateY(-45px);
+		transform: translateY(-45px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 1;
+	}
+	24% {
+		opacity: 1;
+	}
+	40% {
+		-webkit-transform: translateY(-24px);
+		transform: translateY(-24px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	65% {
+		-webkit-transform: translateY(-12px);
+		transform: translateY(-12px);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+	25%,
+	55%,
+	75%,
+	87% {
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+	100% {
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+		opacity: 1;
+	}
 }
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-  scroll-padding-top: 84px;
+	scroll-padding-top: 84px;
 }
 
 body {
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  background-color: #333;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
 }
 
 .underline {
-  margin: 0 auto 42px;
-  width: 60px;
-  height: 4px;
-  background-color: rgb(160, 94, 47);
+	margin: 0 auto 42px;
+	width: 60px;
+	height: 4px;
+	background-color: rgb(160, 94, 47);
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 nav {
-  text-transform: uppercase;
-  z-index: 1;
-  -webkit-transition: background-color 0.6s;
-  transition: background-color 0.6s;
+	text-transform: uppercase;
+	z-index: 1;
+	-webkit-transition: background-color 0.6s;
+	transition: background-color 0.6s;
 }
 nav .fa-bars {
-  padding: 7px;
-  color: #fff;
+	padding: 7px;
+	color: #fff;
 }
 nav .fa-bars:hover {
-  color: #fff;
+	color: #fff;
 }
 nav .nav-link {
-  color: #fff;
+	color: #fff;
 }
 nav .nav-link:hover {
-  color: rgb(160, 94, 47);
+	color: rgb(160, 94, 47);
 }
 
 nav .navbar-brand {
-  font-weight: bold;
-  font-size: 28px;
-  color: #fff;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+	font-weight: bold;
+	font-size: 28px;
+	color: #fff;
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 nav .navbar-brand:hover {
-  color: rgb(160, 94, 47);
+	color: rgb(160, 94, 47);
 }
 nav .green-text {
-  color: rgb(80, 156, 73);
+	color: rgb(80, 156, 73);
 }
 
 .fa-cannabis {
-  margin-right: 7px;
+	margin-right: 7px;
 }
 
 header {
-  color: #fff;
+	color: #fff;
 }
 header h1 {
-  font-size: 30px;
-  text-transform: uppercase;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 header p {
-  font-size: 14px;
+	font-size: 14px;
 }
 header .hero-img {
-  position: relative;
-  height: 100vh;
-  background-image: url("../img/plant-g543e33b07_1920.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
+	position: relative;
+	height: 100vh;
+	background-image: url('../img/plant-g543e33b07_1920.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
 }
 header .hero-shadow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: -10;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: -10;
 }
 header .hero-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-  padding: 10px;
-  text-align: center;
-  z-index: 5;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 100%;
+	padding: 10px;
+	text-align: center;
+	z-index: 5;
 }
 header .btn-outline-light {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 header .fa-chevron-down {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translatex(-50%);
-          transform: translatex(-50%);
-  font-size: 30px;
-  bottom: 20px;
-  color: #fff;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translatex(-50%);
+	transform: translatex(-50%);
+	font-size: 30px;
+	bottom: 20px;
+	color: #fff;
 }
 
 .aboutus {
-  height: calc(100vh);
+	height: calc(100vh);
 }
 
 .aboutus i {
-  margin-top: 20px;
-  font-size: 30px;
+	margin-top: 20px;
+	font-size: 30px;
 }
 
 .aboutus .aboutus-square {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 .aboutus .aboutus-card-title {
-  font-size: 18px;
-  text-transform: uppercase;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 .aboutus .aboutus-card-text {
-  font-size: 14px;
+	font-size: 14px;
 }
 .aboutus .aboutus-hover:hover {
-  color: rgb(160, 94, 47);
+	color: rgb(160, 94, 47);
 }
 
 .aboutus-hero {
-  position: relative;
-  background-image: url("../img/chemist-gd1b12706e_640.jpg");
-  background-position: center;
-  background-size: cover;
-  color: #fff;
-  z-index: 0;
-  text-transform: uppercase;
+	position: relative;
+	background-image: url('../img/chemist-gd1b12706e_640.jpg');
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	z-index: 0;
+	text-transform: uppercase;
 }
 .aboutus-hero .aboutus-shadow {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -5;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -5;
 }
 .aboutus-hero .aboutus-hero-item {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 .aboutus-hero .aboutus-hero-item i {
-  font-size: 36px;
+	font-size: 36px;
 }
 .aboutus-hero .aboutus-hero-item .aboutus-hero-title {
-  font-size: 24px;
-  text-transform: uppercase;
+	font-size: 24px;
+	text-transform: uppercase;
 }
 
 .container p {
-  font-size: 18px;
+	font-size: 18px;
 }
 
 .portfolio {
-  background-color: #fff;
-  color: rgb(5, 0, 0);
-  height: calc(100vh);
+	background-color: #fff;
+	color: rgb(5, 0, 0);
+	height: calc(100vh);
 }
 .portfolio .card-group {
-  color: black;
+	color: black;
 }
 .portfolio .card-group .card {
-  border-radius: 3px solid white;
+	border-radius: 3px solid white;
 }
 .portfolio .carousel-item {
-  position: relative;
-  height: 600px;
+	position: relative;
+	height: 600px;
 }
 .portfolio .carousel-caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: 40px 0;
-  background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 40px 0;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .portfolio .carousel-indicators {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 .aboutus {
-  height: calc(100vh);
+	height: calc(100vh);
 }
 
-
 .contact {
-  position: relative;
-  background-color: #414040;
-  background-position: bottom;
-  background-attachment: fixed;
-  background-size: cover;
-  z-index: 0;
-  /* text-transform: uppercase; */
-  height: calc(80vh);
+	position: relative;
+	background-color: #414040;
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: 0;
+	/* text-transform: uppercase; */
+	height: calc(80vh);
 }
 
 .contact .contact-us {
-  margin-top: 100px;
+	margin-top: 100px;
 }
 .contact h2 {
-  color: white;
-  font-size: calc(1.325rem + .9vw)
+	color: white;
+	font-size: calc(1.325rem + 0.9vw);
 }
 .contact h2 {
-  color: #fff;
+	color: #fff;
 }
 .contact p {
-  color: #fff;
+	color: #fff;
 }
 
 .contact a {
-  text-decoration: none;
-  color: #fff;
+	text-decoration: none;
+	color: #fff;
 }
 
 .contact a:hover {
-  color: rgb(160, 94, 47);
+	color: rgb(160, 94, 47);
 }
 .contact .contact-shadow {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -5;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -5;
 }
 .contact .contact-us {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 .contact .contact-us .contact-item {
-  margin: 30px 0;
-  font-size: 20px;
+	margin: 30px 0;
+	font-size: 20px;
 }
 .contact .contact-us .contact-item h3 {
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 .contact .contact-us .contact-item .social-media {
-  font-size: 36px;
+	font-size: 36px;
 }
 .contact .contact-us .contact-item .social-media a {
-  padding: 10px;
-  color: #fff;
-
+	padding: 10px;
+	color: #fff;
 }
 .contact .contact-us .contact-item .social-media a:hover {
-  color: rgb(160, 94, 47);
+	color: rgb(160, 94, 47);
 }
 
 a nav .nav-link .active {
-  color: rgb(160, 94, 47);
+	color: rgb(160, 94, 47);
 }
 
 @media (max-width: 1200px) {
-  header .hero-img {
-    background-image: url("../img/plant-g543e33b07_1920.jpg");
-  }
+	header .hero-img {
+		background-image: url('../img/plant-g543e33b07_1920.jpg');
+	}
 }
 @media (max-width: 992px) {
-  header .hero-img {
-    background-image: url("../img/plant-g543e33b07_1920.jpg");
-  }
-  .aboutus-hero {
-    background-image: url("../img/chemist-g3845b330f_1920.jpg");
-  }
-  .card-body {
-    border: none;
-  }
+	header .hero-img {
+		background-image: url('../img/plant-g543e33b07_1920.jpg');
+	}
+	.aboutus-hero {
+		background-image: url('../img/chemist-g3845b330f_1920.jpg');
+	}
+	.card-body {
+		border: none;
+	}
 }
 @media (max-width: 768px) {
-  header h1 {
-    font-size: 42px;
-  }
-  header .hero-img {
-    background-image: url("../img/plant-g543e33b07_1920.jpg");
-  }
-  .card-body {
-    border: 1px solid rgb(219, 214, 214);
-    border-radius: 5px;
-  }
+	header h1 {
+		font-size: 42px;
+	}
+	header .hero-img {
+		background-image: url('../img/plant-g543e33b07_1920.jpg');
+	}
+	.card-body {
+		border: 1px solid rgb(219, 214, 214);
+		border-radius: 5px;
+	}
 }
 @media (max-width: 600px) {
-  header .hero-img {
-    background-image: url("../img/plant-g543e33b07_1920.jpg");
+	header .hero-img {
+		background-image: url('../img/plant-g543e33b07_1920.jpg');
+	}
+	.aboutus {
+		height: auto;
+	}
+	.portfolio {
+		height: auto;
+	}
+	.contact .contact-us {
+		margin-top: 1px;
+	}
+	.navbar {
+		background-color: black;
+	}
+	.cnt1 {
+		margin-top: -5px;
+	}
+  .underline {
+    margin: 0 auto 20px;
+  }
+  .contact-shadow {
+    padding: 5px;
   }
 }
-
