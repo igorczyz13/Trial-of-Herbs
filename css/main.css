@@ -138,7 +138,7 @@ nav .nav-link {
 nav .nav-link:hover {
   color: rgb(160, 94, 47);
 }
-nav .nav-link:active {
+nav .nav-link .active {
   color: rgb(160, 94, 47);
 }
 nav .navbar-brand {
@@ -221,6 +221,10 @@ header .fa-chevron-down {
   margin-top: 20px;
   font-size: 30px;
 }
+
+.aboutus .aboutus-square {
+  margin-top: 25px;
+}
 .aboutus .aboutus-card-title {
   font-size: 18px;
   text-transform: uppercase;
@@ -263,6 +267,7 @@ header .fa-chevron-down {
 .portfolio {
   background-color: #fff;
   color: rgb(5, 0, 0);
+  height: calc(100vh);
 }
 .portfolio .card-group {
   color: black;
@@ -284,32 +289,43 @@ header .fa-chevron-down {
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
 }
+.aboutus {
+  height: calc(100vh);
+}
 
-.prices {
-  background-color: rgb(232, 229, 229);
-}
-.prices h3 {
-  color: rgb(1, 1, 1);
-}
 
 .contact {
   position: relative;
-  background-image: url("/img/city-g084be12b5_1920.jpg");
+  background-color: #414040;
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
   z-index: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  height: calc(80vh);
+}
+
+.contact .contact-us {
+  margin-top: 100px;
 }
 .contact h2 {
   color: white;
-  font-weight: bold;
+  font-size: calc(1.325rem + .9vw)
 }
-.contact h3 {
+.contact h2 {
   color: #fff;
 }
 .contact p {
   color: #fff;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact a:hover {
+  color: rgb(160, 94, 47);
 }
 .contact .contact-shadow {
   position: absolute;
@@ -326,9 +342,11 @@ header .fa-chevron-down {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  
 }
 .contact .contact-us .contact-item {
   margin: 30px 0;
+  font-size: 20px;
 }
 .contact .contact-us .contact-item h3 {
   margin-bottom: 15px;
@@ -336,11 +354,12 @@ header .fa-chevron-down {
   letter-spacing: 2px;
 }
 .contact .contact-us .contact-item .social-media {
-  font-size: 26px;
+  font-size: 36px;
 }
 .contact .contact-us .contact-item .social-media a {
   padding: 10px;
   color: #fff;
+
 }
 .contact .contact-us .contact-item .social-media a:hover {
   color: rgb(160, 94, 47);
