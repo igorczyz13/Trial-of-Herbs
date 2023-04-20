@@ -145,7 +145,7 @@ nav .nav-link:hover {
 	color: rgb(160, 94, 47);
 }
 nav .nav-link.active {
-  color: rgb(160, 94, 47) !important;
+  color: rgb(99, 58, 29) !important;
 }
 nav .navbar-brand {
 	font-weight: bold;
