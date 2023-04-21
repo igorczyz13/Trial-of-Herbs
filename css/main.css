@@ -145,7 +145,7 @@ nav .nav-link:hover {
 	color: rgb(160, 94, 47);
 }
 nav .nav-link.active {
-  color: rgb(99, 58, 29) !important;
+	color: rgb(99, 58, 29) !important;
 }
 nav .navbar-brand {
 	font-weight: bold;
@@ -381,12 +381,37 @@ a nav .nav-link .active {
 }
 
 .social-media {
-  margin-top: 80px;
+	margin-top: 80px;
 }
 
 @media (max-width: 1200px) {
 	header .hero-img {
 		background-image: url('../img/plant-g543e33b07_1920.jpg');
+	}
+	nav .navbar-brand {
+		font-size: 40px;
+	}
+	button .navbar-toggler {
+		font-size: 80px;
+	}
+	.hero-text h1 {
+		font-size: 60px;
+	}
+	.hero-text p {
+		font-size: 20px;
+	}
+	.underline {
+		width: 80px;
+		height: 5px;
+	}
+	.aboutus {
+		height: calc(100vh);
+	}
+	.aboutus h2 {
+		font-size: 35px;
+	}
+	.portfolio h2 {
+		font-size: 35px;
 	}
 }
 @media (max-width: 992px) {
@@ -398,6 +423,9 @@ a nav .nav-link .active {
 	}
 	.card-body {
 		border: none;
+	}
+	.contact {
+		height: calc(90vh);
 	}
 }
 @media (max-width: 768px) {
@@ -422,10 +450,9 @@ a nav .nav-link .active {
 	.portfolio {
 		height: auto;
 	}
-  .contact {
-    height: calc(70vh);
-  }
-  
+	.contact {
+		height: calc(73vh);
+	}
 	.contact .contact-us {
 		margin-top: 1px;
 	}
@@ -435,13 +462,38 @@ a nav .nav-link .active {
 	.cnt1 {
 		margin-top: -5px;
 	}
-  .underline {
-    margin: 0 auto 20px;
-  }
-  .contact-shadow {
-    padding: 5px;
-  }
-  .social-media {
-    margin-top: 0;
-  }
+	.underline {
+		margin: 0 auto 20px;
+	}
+	.contact-shadow {
+		padding: 5px;
+	}
+	.social-media {
+		margin-top: 0;
+	}
+}
+@media (max-width: 415px) {
+	.contact {
+		height: calc(80vh);
+	}
+	.contact-us {
+		margin-top: 200px;
+	}
+	.social-media {
+		margin-top: 150px;
+	}
+}
+@media (max-width: 376px) {
+	.contact {
+		height: calc(73vh);
+	}
+}
+
+@media (max-width: 361px) {
+	.contact {
+		height: calc(75vh);
+	}
+	.social-media {
+		margin-top: 60px;
+	}
 }
